@@ -1,0 +1,106 @@
+[CharacterSetting]
+{Silent}
+(Attribute)
+Name=Silent
+Hp=100
+TotalCost=10
+(Attribute/)
+{Silent/}
+
+------------------------------
+{Warrior}
+(Attribute)
+Hp=120
+TotalCost=5
+(Attribute/)
+{Warrior/}
+
+------------------------------
+{Archor}
+(Attribute)
+Name=Archor
+Hp=90
+TotalCost=7
+(Attribute/)
+{Archor/}
+
+[CharacterSetting/]
+
+---------------------------------------------------------------------
+[CardSetting]
+{Silent}
+CardNum=8
+	(Strike)
+	Name=Strike
+	Type=Attack
+	Tear=Starter
+	Cost=0
+	Damage=6
+	Effect=Deal 6 damage.
+	(Strike/)
+
+	(Neutralize)
+	Name=Neutralize
+	Type=Attack
+	Tear=Starter
+	Cost=0
+	Damage=3
+	Weak=2
+	Effect=Deal 3 damage. Apply 2 Weak.
+	(Neutralize/)
+
+	(Defend)
+	Name=Defend
+	Type=Skill
+	Tear=Starter
+	Cost=1
+	Block=5
+	Effect=Gain 5 Block.
+	(Defend/)
+
+	(Survivor)
+	Name=Survivor
+	Type=Skill
+	Tear=Starter
+	Cost=1
+	Block=5
+	Discard=1
+	Effect=Gain 8 Block. Discard a card.
+	(Survivor/)
+
+	(Acrobatics)
+	Name=Acrobatics
+	Type=Skill
+	Tear=Common
+	Cost=1
+	Draw=3
+	Discard=1
+	Effect=Draw 3 cards. Discard 1 cards.
+	(Acrobatics/)
+
+	(Backflip)
+	Name=Backflip
+	Type=Skill
+	Tear=Common
+	Cost=1
+	Effect=Gain 5 Block. Draw 2 cards.
+	(Backflip/)
+
+	(Bane)
+	Name=Bane
+	Type=Attack
+	Tear=Common
+	Cost=1
+	Effect=Deal 7 damage.if poisoned, Deal 7 damage again.
+	(Bane/)
+
+	(BladeDance)
+	Name=BladeDance
+	Type=Skill
+	Tear=Common
+	Effect=Add 3 Shivs to your hand.
+	(BladeDance/)
+{Silent/}
+------------------------
+
+[CardSetting/]
